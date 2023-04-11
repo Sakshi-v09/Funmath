@@ -1,0 +1,135 @@
+html{
+    background-color:#D0B8A8;
+}
+#container{
+    height: 400px;
+    width:550px;
+    background-color: #7D6E83;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px 0px #F8EDE3;
+    position: relative;
+}
+#score{
+    background-color: #FFD1D1;
+    color: #674747;
+    padding: 11px;
+    position: absolute;
+    left: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px #FF9494;
+}
+#correct{
+    position: absolute;
+    left: 250px;
+    background-color:#3D8361;
+    color: #EEF2E6 ;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 4px 0px #EEF2E6;
+    display: none;
+}
+#wrong{
+    position: absolute;
+    left: 250px;
+    background-color: #EB1D36;
+    color: #FFD1D1;
+    padding: 10px;
+    border-radius: 2px;
+    display: none;
+}
+#Question{
+    width: 400px;
+    height: 150px;
+    margin: 50px auto 10px auto;
+    background-color: #D7C0AE;
+    border-radius: 4px;
+    box-shadow: 0px 4px 0px #EEE3CB;
+    font-size: 100px;
+    text-align: center;
+    line-height: 150px;
+}
+#rule{
+    width: 400px;
+    height: 50px;
+    background-color: #EEE3CB;
+    margin: 10px auto;
+    text-align: center;
+    padding-top: 5px;
+    line-height: 45px;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px #D7C0AE;
+    
+}
+#choices{
+    height: 100px;
+    width: 400px;
+    margin:5px auto;
+    
+}
+.choice{
+    width: 70px;
+    height: 70px;
+    background-color: aliceblue;
+    float: left;
+    margin-right: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 4px 0px darkgrey;
+    text-align: center;
+    line-height: 80px;
+    font-size: large;
+    position: relative;
+    transition: all 0.2s;
+}
+#choice4{
+    margin-right: 0px;
+}
+.choice:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.choice:active,#startreset:active{
+    top: 4px;
+}
+#startreset{
+    width:78px;
+    padding: 10px;
+    background-color: #B7C4CF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    transition: all 0.2s;
+
+}
+#timeremaining{
+    width: 152px;
+    padding: 10px;
+    position: absolute;
+    top: 385px;
+    left: 400px;
+    background-color: #A7D2CB;
+    border-radius: 3px;
+    display: none;
+    
+}
+#gameover{
+    height:200px;
+    width: 500px;
+    background: #EB1D36;
+    color: #D0B8A8;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 45px;
+    z-index: 2;
+    display: none;
+}
